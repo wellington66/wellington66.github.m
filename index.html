@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Protocolo Detox 21 Dias — Perca até 8kg em 3 semanas</title>
+<meta name="description" content="O método comprovado que vai transformar seu corpo em 21 dias. Cardápio completo, lista de compras e suporte total."/>
+
+<!-- Pixel da Meta — SUBSTITUA pelo seu ID -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', 'SEU_PIXEL_ID_AQUI'); // ← TROQUE PELO SEU PIXEL ID
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=SEU_PIXEL_ID_AQUI&ev=PageView&noscript=1"/></noscript>
+<!-- Fim Pixel Meta -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --green-dark: #1a4a2e;
+    --green-mid: #2d7a4f;
+    --green-light: #4caf7d;
+    --green-pale: #e8f5ee;
+    --orange: #e8793a;
+    --orange-dark: #c45e22;
+    --cream: #fdfaf5;
+    --dark: #1c1c1c;
+    --gray: #555;
+    --white: #fff;
+  }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body { font-family: 'Nunito', sans-serif; background: var(--cream); color: var(--dark); overflow-x: hidden; }
+
+  /* ── HERO ── */
+  .hero {
+    background: linear-gradient(160deg, var(--green-dark) 0%, #0f3020 55%, #162d1e 100%);
+    min-height: 100vh;
+    display: flex; flex-direction: column;
+    align-items: center; justify-content: center;
+    text-align: center;
+    padding: 60px 20px 80px;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero::before {
+    content: '';
+    position: absolute; inset: 0;
+    background: radial-gradient(ellipse at 20% 50%, rgba(76,175,125,0.12) 0%, transparent 60%),
+                radial-gradient(ellipse at 80% 20%, rgba(232,121,58,0.08) 0%, transparent 50%);
+  }
+  .hero-badge {
+    background: var(--orange);
+    color: white; font-size: 11px; font-weight: 800;
+    letter-spacing: 2px; text-transform: uppercase;
+    padding: 6px 20px; border-radius: 30px;
+    margin-bottom: 24px; display: inline-block;
+    animation: fadeDown 0.6s ease both;
+  }
+  .hero h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(38px, 7vw, 72px);
+    font-weight: 900;
+    color: var(--white);
+    line-height: 1.1;
+    margin-bottom: 12px;
+    animation: fadeDown 0.7s 0.1s ease both;
+  }
+  .hero h1 span { color: var(--green-light); }
+  .hero-sub {
+    font-size: clamp(16px, 2.5vw, 22px);
+    color: #b8dfc8;
+    margin-bottom: 32px; max-width: 600px;
+    animation: fadeDown 0.7s 0.2s ease both;
+  }
+  .hero-proof {
+    display: flex; gap: 32px; justify-content: center; flex-wrap: wrap;
+    margin-bottom: 40px;
+    animation: fadeDown 0.7s 0.3s ease both;
+  }
+  .proof-item { text-align: center; }
+  .proof-num { font-family: 'Playfair Display', serif; font-size: 32px; font-weight: 900; color: var(--green-light); }
+  .proof-label { font-size: 12px; color: #88b89a; text-transform: uppercase; letter-spacing: 1px; }
+
+  .cta-box {
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(76,175,125,0.3);
+    border-radius: 20px;
+    padding: 32px 40px;
+    max-width: 480px; width: 100%;
+    animation: fadeDown 0.8s 0.4s ease both;
+  }
+  .price-old { font-size: 15px; color: #77aa88; text-decoration: line-through; margin-bottom: 4px; }
+  .price-new { font-family: 'Playfair Display', serif; font-size: 52px; font-weight: 900; color: var(--white); line-height: 1; }
+  .price-new sup { font-size: 24px; vertical-align: top; margin-top: 10px; }
+  .price-tag { font-size: 13px; color: var(--orange); font-weight: 700; margin-bottom: 20px; }
+  .btn-cta {
+    display: block; width: 100%;
+    background: linear-gradient(135deg, var(--orange) 0%, var(--orange-dark) 100%);
+    color: white; font-size: 18px; font-weight: 800;
+    text-decoration: none; padding: 18px 32px;
+    border-radius: 12px; border: none; cursor: pointer;
+    text-transform: uppercase; letter-spacing: 1px;
+    box-shadow: 0 8px 30px rgba(232,121,58,0.4);
+    transition: transform 0.2s, box-shadow 0.2s;
+    animation: pulse 2.5s 2s ease infinite;
+  }
+  .btn-cta:hover { transform: translateY(-2px); box-shadow: 0 12px 40px rgba(232,121,58,0.55); }
+  .btn-cta small { display: block; font-size: 11px; font-weight: 600; opacity: 0.85; margin-top: 4px; text-transform: none; letter-spacing: 0; }
+  .guarantee { font-size: 12px; color: #77aa88; margin-top: 14px; }
+
+  /* ── URGÊNCIA ── */
+  .urgency-bar {
+    background: var(--orange);
+    color: white; text-align: center;
+    padding: 12px 20px; font-weight: 700; font-size: 14px;
+  }
+  .timer { display: inline-flex; gap: 4px; align-items: center; font-size: 18px; font-weight: 900; }
+
+  /* ── SEÇÕES GERAIS ── */
+  section { padding: 80px 20px; }
+  .container { max-width: 900px; margin: 0 auto; }
+  .section-tag { color: var(--green-mid); font-size: 12px; font-weight: 800; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 10px; }
+  .section-title { font-family: 'Playfair Display', serif; font-size: clamp(26px, 4vw, 42px); font-weight: 900; line-height: 1.2; margin-bottom: 16px; }
+  .section-title span { color: var(--green-mid); }
+  .section-lead { font-size: 17px; color: var(--gray); line-height: 1.7; max-width: 700px; }
+
+  /* ── PROBLEMA/SOLUÇÃO ── */
+  .pain-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; margin-top: 40px; }
+  .pain-card {
+    background: white; border-left: 4px solid #e74c3c;
+    border-radius: 12px; padding: 20px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  }
+  .pain-card .icon { font-size: 26px; margin-bottom: 8px; }
+  .pain-card h3 { font-size: 15px; font-weight: 800; margin-bottom: 6px; }
+  .pain-card p { font-size: 13px; color: var(--gray); line-height: 1.5; }
+
+  /* ── O QUE VOCÊ RECEBE ── */
+  .what-section { background: var(--green-dark); }
+  .what-section .section-title { color: white; }
+  .what-section .section-tag { color: var(--green-light); }
+  .what-section .section-lead { color: #b8dfc8; }
+  .what-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; margin-top: 40px; }
+  .what-card {
+    background: rgba(255,255,255,0.07);
+    border: 1px solid rgba(76,175,125,0.25);
+    border-radius: 16px; padding: 28px 24px;
+  }
+  .what-card .icon { font-size: 32px; margin-bottom: 12px; }
+  .what-card h3 { font-size: 17px; font-weight: 800; color: white; margin-bottom: 8px; }
+  .what-card p { font-size: 14px; color: #8fbfa3; line-height: 1.6; }
+  .what-card .tag-new { background: var(--orange); color: white; font-size: 10px; font-weight: 800; padding: 2px 8px; border-radius: 20px; margin-left: 6px; vertical-align: middle; }
+
+  /* ── RESULTADOS ── */
+  .results-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px; margin-top: 40px; }
+  .result-card {
+    text-align: center;
+    background: white; border-radius: 16px; padding: 28px 16px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.07);
+    border-top: 4px solid var(--green-light);
+  }
+  .result-num { font-family: 'Playfair Display', serif; font-size: 40px; font-weight: 900; color: var(--green-dark); }
+  .result-unit { font-size: 18px; }
+  .result-label { font-size: 13px; color: var(--gray); margin-top: 6px; }
+
+  /* ── DEPOIMENTOS ── */
+  .testimonials-section { background: var(--green-pale); }
+  .testimonials-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-top: 40px; }
+  .test-card {
+    background: white; border-radius: 16px; padding: 24px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.07);
+    position: relative;
+  }
+  .test-card::before { content: '"'; font-size: 60px; color: var(--green-pale); position: absolute; top: 10px; left: 18px; line-height: 1; font-family: 'Playfair Display', serif; }
+  .test-stars { color: #f4a11b; font-size: 14px; margin-bottom: 12px; }
+  .test-text { font-size: 14px; line-height: 1.7; color: var(--dark); margin-bottom: 16px; font-style: italic; }
+  .test-author { display: flex; align-items: center; gap: 12px; }
+  .test-avatar {
+    width: 44px; height: 44px; border-radius: 50%;
+    background: linear-gradient(135deg, var(--green-mid), var(--green-dark));
+    display: flex; align-items: center; justify-content: center;
+    font-size: 18px; font-weight: 900; color: white; flex-shrink: 0;
+  }
+  .test-name { font-size: 13px; font-weight: 800; }
+  .test-location { font-size: 11px; color: var(--gray); }
+  .test-result { background: var(--green-pale); color: var(--green-dark); font-size: 11px; font-weight: 800; padding: 3px 10px; border-radius: 20px; margin-top: 4px; display: inline-block; }
+
+  /* ── FAQ ── */
+  .faq-item { border-bottom: 1px solid #e0ece5; padding: 20px 0; }
+  .faq-q { font-size: 16px; font-weight: 800; color: var(--green-dark); cursor: pointer; display: flex; justify-content: space-between; align-items: center; }
+  .faq-a { font-size: 14px; color: var(--gray); line-height: 1.7; padding-top: 12px; display: none; }
+  .faq-item.open .faq-a { display: block; }
+  .faq-item.open .faq-icon { transform: rotate(45deg); }
+  .faq-icon { font-size: 20px; color: var(--green-mid); transition: transform 0.2s; flex-shrink: 0; }
+
+  /* ── GARANTIA ── */
+  .guarantee-section {
+    background: linear-gradient(135deg, var(--green-dark) 0%, #0f3020 100%);
+    text-align: center; padding: 80px 20px;
+  }
+  .guarantee-badge {
+    width: 120px; height: 120px; border-radius: 50%;
+    background: var(--orange);
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    margin: 0 auto 28px;
+    box-shadow: 0 8px 40px rgba(232,121,58,0.4);
+  }
+  .guarantee-badge span { font-size: 28px; font-weight: 900; color: white; line-height: 1; }
+  .guarantee-badge small { font-size: 10px; color: rgba(255,255,255,0.8); text-transform: uppercase; letter-spacing: 1px; }
+  .guarantee-section h2 { font-family: 'Playfair Display', serif; font-size: 32px; color: white; margin-bottom: 16px; }
+  .guarantee-section p { font-size: 16px; color: #b8dfc8; line-height: 1.7; max-width: 600px; margin: 0 auto; }
+
+  /* ── CTA FINAL ── */
+  .cta-final {
+    background: var(--cream);
+    text-align: center; padding: 80px 20px;
+  }
+  .cta-final .section-title { color: var(--green-dark); }
+  .final-box {
+    background: white;
+    border: 2px solid var(--green-light);
+    border-radius: 24px;
+    padding: 48px 40px;
+    max-width: 540px; margin: 40px auto 0;
+    box-shadow: 0 20px 60px rgba(45,122,79,0.1);
+  }
+  .checklist { list-style: none; text-align: left; margin-bottom: 28px; }
+  .checklist li { font-size: 14px; padding: 7px 0; border-bottom: 1px solid var(--green-pale); display: flex; gap: 10px; align-items: center; }
+  .checklist li::before { content: '✓'; background: var(--green-light); color: white; width: 20px; height: 20px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; font-size: 11px; font-weight: 900; flex-shrink: 0; }
+
+  /* ── FOOTER ── */
+  footer { background: var(--green-dark); padding: 32px 20px; text-align: center; }
+  footer p { font-size: 12px; color: #6a9a7a; line-height: 1.8; }
+  footer a { color: #88b899; text-decoration: none; }
+
+  /* ── STICKY CTA (mobile) ── */
+  .sticky-cta {
+    position: fixed; bottom: 0; left: 0; right: 0;
+    background: var(--orange);
+    padding: 14px 20px; text-align: center;
+    z-index: 999;
+    box-shadow: 0 -4px 20px rgba(0,0,0,0.15);
+    display: none;
+  }
+  .sticky-cta a { color: white; font-size: 16px; font-weight: 800; text-decoration: none; text-transform: uppercase; letter-spacing: 1px; }
+  @media (max-width: 600px) { .sticky-cta { display: block; } }
+
+  /* ── ANIMAÇÕES ── */
+  @keyframes fadeDown { from { opacity:0; transform:translateY(-20px); } to { opacity:1; transform:translateY(0); } }
+  @keyframes pulse {
+    0%, 100% { box-shadow: 0 8px 30px rgba(232,121,58,0.4); }
+    50% { box-shadow: 0 8px 50px rgba(232,121,58,0.7); }
+  }
+  .fade-in { opacity: 0; transform: translateY(30px); transition: opacity 0.6s ease, transform 0.6s ease; }
+  .fade-in.visible { opacity: 1; transform: translateY(0); }
+</style>
+</head>
+<body>
+
+<!-- URGÊNCIA -->
+<div class="urgency-bar">
+  🔥 OFERTA ESPECIAL — Apenas R$27 por tempo limitado!&nbsp;&nbsp;
+  Termina em: <span class="timer" id="timer">23:59:47</span>
+</div>
+
+<!-- HERO -->
+<section class="hero">
+  <div style="position:relative; z-index:1; width:100%;">
+    <span class="hero-badge">✨ Mais de 12.400 pessoas transformadas</span>
+    <h1>Perca até <span>8kg em<br>21 dias</span> com o<br>Protocolo Detox</h1>
+    <p class="hero-sub">O método comprovado que reseta seu metabolismo, elimina toxinas e derruba a gordura localizada — sem passar fome, sem academia</p>
+
+    <div class="hero-proof">
+      <div class="proof-item"><div class="proof-num">12.4k+</div><div class="proof-label">Vidas transformadas</div></div>
+      <div class="proof-item"><div class="proof-num">4,9 ⭐</div><div class="proof-label">Avaliação média</div></div>
+      <div class="proof-item"><div class="proof-num">8 kg</div><div class="proof-label">Perda média em 21 dias</div></div>
+    </div>
+
+    <div class="cta-box">
+      <div class="price-old">De R$ 97,00 por apenas:</div>
+      <div class="price-new"><sup>R$</sup>27<sup style="font-size:18px;margin-top:16px;">,00</sup></div>
+      <div class="price-tag">🔥 Acesso vitalício • Entrega imediata no e-mail</div>
+      <a class="btn-cta" href="SEU_LINK_CAKTO_AQUI" id="main-cta" onclick="fbq && fbq('track', 'InitiateCheckout')">
+        QUERO MEU PROTOCOLO AGORA
+        <small>🔒 Pagamento 100% seguro via Cakto</small>
+      </a>
+      <p class="guarantee">✅ Garantia de 7 dias. Se não gostar, devolvemos seu dinheiro.</p>
+    </div>
+  </div>
+</section>
+
+<!-- PROBLEMA -->
+<section style="background: white;">
+  <div class="container">
+    <p class="section-tag fade-in">O problema real</p>
+    <h2 class="section-title fade-in">Você já se identificou com <span>alguma dessas situações?</span></h2>
+    <p class="section-lead fade-in">Se sim, saiba que não é falta de força de vontade. É que seu corpo está sobrecarregado de toxinas que bloqueiam o emagrecimento.</p>
+    <div class="pain-grid">
+      <div class="pain-card fade-in"><div class="icon">😩</div><h3>Cansaço constante</h3><p>Acorda cansada, o dia arrasta e a cafeína já não surte efeito?</p></div>
+      <div class="pain-card fade-in"><div class="icon">🎈</div><h3>Barriga inchada</h3><p>Inchaço que não passa, desconforto abdominal e roupas sempre apertando?</p></div>
+      <div class="pain-card fade-in"><div class="icon">⚖️</div><h3>Peso que não sai</h3><p>Corta calorias, malha, mas a balança simplesmente não se move?</p></div>
+      <div class="pain-card fade-in"><div class="icon">🍫</div><h3>Vício em doce</h3><p>Compulsão por carboidratos e doces que sabotam qualquer dieta?</p></div>
+      <div class="pain-card fade-in"><div class="icon">😴</div><h3>Sono ruim</h3><p>Dificuldade de dormir ou acordar no meio da noite sem conseguir voltar?</p></div>
+      <div class="pain-card fade-in"><div class="icon">🧠</div><h3>Névoa mental</h3><p>Dificuldade de foco, memória fraca e sensação de "cabeça pesada"?</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- O QUE VOCÊ RECEBE -->
+<section class="what-section">
+  <div class="container">
+    <p class="section-tag fade-in">O que está incluído</p>
+    <h2 class="section-title fade-in">Tudo que você precisa para <span style="color:var(--green-light)">transformar seu corpo</span></h2>
+    <p class="section-lead fade-in">Um guia completo e prático — sem enrolação, sem teoria difícil. Só o que funciona.</p>
+    <div class="what-grid">
+      <div class="what-card fade-in">
+        <div class="icon">📋</div>
+        <h3>Cardápio Completo 21 Dias</h3>
+        <p>Café da manhã, almoço e jantar para cada dia. Prático, saboroso e sem cozinha elaborada.</p>
+      </div>
+      <div class="what-card fade-in">
+        <div class="icon">🛒</div>
+        <h3>Lista de Compras Pronta</h3>
+        <p>Tudo organizado por categoria. Chegou no mercado, já sabe exatamente o que comprar.</p>
+      </div>
+      <div class="what-card fade-in">
+        <div class="icon">👨‍🍳</div>
+        <h3>12 Receitas Detox<span class="tag-new">NOVO</span></h3>
+        <p>Vitaminas, sopas, bowls e refeições práticas que você faz em menos de 20 minutos.</p>
+      </div>
+      <div class="what-card fade-in">
+        <div class="icon">💊</div>
+        <h3>Guia de Suplementos</h3>
+        <p>Quais suplementos aceleram o detox, como usar e onde comprar barato.</p>
+      </div>
+      <div class="what-card fade-in">
+        <div class="icon">📐</div>
+        <h3>Protocolo de Hidratação</h3>
+        <p>Horários e fórmulas de água funcional que potencializam a eliminação de toxinas.</p>
+      </div>
+      <div class="what-card fade-in">
+        <div class="icon">🔁</div>
+        <h3>Plano de Manutenção</h3>
+        <p>Como manter os resultados depois dos 21 dias e não ter o efeito sanfona.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RESULTADOS -->
+<section style="background: var(--cream);">
+  <div class="container" style="text-align:center;">
+    <p class="section-tag fade-in">Resultados comprovados</p>
+    <h2 class="section-title fade-in">Números que <span>falam por si</span></h2>
+    <div class="results-grid">
+      <div class="result-card fade-in"><div class="result-num">3–8<span class="result-unit">kg</span></div><div class="result-label">Perda de peso em 21 dias</div></div>
+      <div class="result-card fade-in"><div class="result-num">94<span class="result-unit">%</span></div><div class="result-label">Sentiram mais energia na 1ª semana</div></div>
+      <div class="result-card fade-in"><div class="result-num">12k<span class="result-unit">+</span></div><div class="result-label">Pessoas que já fizeram o protocolo</div></div>
+      <div class="result-card fade-in"><div class="result-num">4,9<span class="result-unit">⭐</span></div><div class="result-label">Avaliação média dos compradores</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- DEPOIMENTOS -->
+<section class="testimonials-section">
+  <div class="container">
+    <p class="section-tag fade-in" style="text-align:center;">Quem já transformou a vida</p>
+    <h2 class="section-title fade-in" style="text-align:center;">Histórias reais de <span>pessoas reais</span></h2>
+    <div class="testimonials-grid">
+
+      <div class="test-card fade-in">
+        <div class="test-stars">★★★★★</div>
+        <p class="test-text">Eu tentei de tudo: low carb, jejum intermitente, shakes caríssimos. Com o Protocolo Detox perdi 6,5 kg e minha energia triplicou. Meus hábitos mudaram completamente!</p>
+        <div class="test-author">
+          <div class="test-avatar">M</div>
+          <div>
+            <div class="test-name">Mariana S.</div>
+            <div class="test-location">34 anos — São Paulo, SP</div>
+            <span class="test-result">Perdeu 6,5 kg em 21 dias</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="test-card fade-in">
+        <div class="test-stars">★★★★★</div>
+        <p class="test-text">Fui com ceticismo total. No 7º dia já tinha perdido 3 kg e minha barriga tinha desinchado visivelmente. Nos 21 dias foram 7 kg. Meu médico ficou impressionado!</p>
+        <div class="test-author">
+          <div class="test-avatar">C</div>
+          <div>
+            <div class="test-name">Carlos M.</div>
+            <div class="test-location">47 anos — Belo Horizonte, MG</div>
+            <span class="test-result">Perdeu 7 kg em 21 dias</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="test-card fade-in">
+        <div class="test-stars">★★★★★</div>
+        <p class="test-text">Sempre tive muita retenção de líquidos. Em 3 semanas perdi o inchaço, minha pele ficou luminosa e finalmente consigo dormir bem à noite. Valeu cada centavo!</p>
+        <div class="test-author">
+          <div class="test-avatar">F</div>
+          <div>
+            <div class="test-name">Fernanda L.</div>
+            <div class="test-location">29 anos — Curitiba, PR</div>
+            <span class="test-result">Perdeu 4,8 kg + fim do inchaço</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="test-card fade-in">
+        <div class="test-stars">★★★★★</div>
+        <p class="test-text">Estava com pré-diabetes. Em 21 dias perdi 5,2 kg, minha glicemia voltou ao normal e me sinto 20 anos mais novo. Recomendo de olhos fechados!</p>
+        <div class="test-author">
+          <div class="test-avatar">R</div>
+          <div>
+            <div class="test-name">Rodrigo T.</div>
+            <div class="test-location">52 anos — Rio de Janeiro, RJ</div>
+            <span class="test-result">Perdeu 5,2 kg + glicemia normalizada</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="test-card fade-in">
+        <div class="test-stars">★★★★★</div>
+        <p class="test-text">Fiz pela segunda vez e os resultados foram ainda melhores. Desta vez perdi 8 kg em 21 dias seguindo tudo certinho. O cardápio é prático e as receitas são deliciosas!</p>
+        <div class="test-author">
+          <div class="test-avatar">J</div>
+          <div>
+            <div class="test-name">Juliana A.</div>
+            <div class="test-location">38 anos — Porto Alegre, RS</div>
+            <span class="test-result">Perdeu 8 kg em 21 dias</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="test-card fade-in">
+        <div class="test-stars">★★★★★</div>
+        <p class="test-text">Além dos 4,5 kg que perdi, parei de ter aquela sonolência da tarde e minha produtividade no trabalho disparou. A melhora no humor foi incrível!</p>
+        <div class="test-author">
+          <div class="test-avatar">P</div>
+          <div>
+            <div class="test-name">Patrícia O.</div>
+            <div class="test-location">44 anos — Recife, PE</div>
+            <span class="test-result">Perdeu 4,5 kg + foco total</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section style="background: white;">
+  <div class="container" style="max-width:700px;">
+    <p class="section-tag fade-in" style="text-align:center;">Dúvidas frequentes</p>
+    <h2 class="section-title fade-in" style="text-align:center;">Perguntas que todo mundo faz</h2>
+    <div style="margin-top:40px;" class="fade-in">
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">Para quem é esse protocolo? <span class="faq-icon">+</span></div>
+        <div class="faq-a">Para qualquer pessoa acima de 18 anos que quer perder peso, reduzir o inchaço e ter mais energia. Funciona para quem já tentou outras dietas sem sucesso.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">Vou passar fome? <span class="faq-icon">+</span></div>
+        <div class="faq-a">Não! O protocolo foi desenhado para nutrir seu corpo, não para privá-lo. Você vai comer bem e com variedade — o segredo está na <em>qualidade</em> dos alimentos.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">Precisa de academia? <span class="faq-icon">+</span></div>
+        <div class="faq-a">Não é obrigatório. Caminhadas leves de 20-30 minutos potencializam os resultados, mas o protocolo funciona mesmo sem exercícios intensos.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">Como recebo o material? <span class="faq-icon">+</span></div>
+        <div class="faq-a">Imediatamente após o pagamento, você recebe um e-mail com o link para baixar o PDF. Acesso vitalício — baixe, imprima, use para sempre.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">E se eu não gostar? <span class="faq-icon">+</span></div>
+        <div class="faq-a">Você tem 7 dias de garantia total. Se não ficar satisfeito por qualquer motivo, basta pedir o reembolso e devolvemos 100% do seu dinheiro, sem perguntas.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">Funciona para quem tem restrições alimentares? <span class="faq-icon">+</span></div>
+        <div class="faq-a">O protocolo base é bastante flexível. Quem tem restrições específicas (lactose, glúten, etc.) pode facilmente adaptar as substituições indicadas no guia.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GARANTIA -->
+<section class="guarantee-section">
+  <div class="container" style="text-align:center;">
+    <div class="guarantee-badge">
+      <span>7</span>
+      <small>dias de garantia</small>
+    </div>
+    <h2 class="fade-in">Risco zero para você</h2>
+    <p class="fade-in">Compre sem medo. Se em 7 dias você não estiver satisfeito, basta enviar um e-mail e devolvemos cada centavo que você pagou — sem burocracia, sem perguntas.</p>
+  </div>
+</section>
+
+<!-- CTA FINAL -->
+<section class="cta-final">
+  <div class="container" style="text-align:center;">
+    <p class="section-tag fade-in">Última chance</p>
+    <h2 class="section-title fade-in">Comece hoje. Resultados em <span>7 dias ou seu dinheiro de volta</span></h2>
+    <div class="final-box fade-in">
+      <ul class="checklist">
+        <li>Cardápio completo 21 dias (café, almoço e jantar)</li>
+        <li>Lista de compras organizada por categoria</li>
+        <li>12 receitas práticas e deliciosas</li>
+        <li>Guia de suplementos com custo e dosagem</li>
+        <li>Protocolo de hidratação funcional</li>
+        <li>Plano de manutenção pós-detox</li>
+        <li>Acesso vitalício — baixe agora, use para sempre</li>
+      </ul>
+      <div class="price-old" style="color:#aaa; font-size:14px;">De R$ 97,00 por apenas:</div>
+      <div style="font-family:'Playfair Display',serif; font-size:54px; font-weight:900; color:var(--green-dark); line-height:1; margin-bottom:6px;"><sup style="font-size:22px; vertical-align:top; margin-top:12px;">R$</sup>27<sup style="font-size:18px; vertical-align:top; margin-top:16px;">,00</sup></div>
+      <div style="color:var(--orange); font-weight:800; font-size:13px; margin-bottom:20px;">🔥 Acesso imediato no e-mail após o pagamento</div>
+      <a class="btn-cta" href="SEU_LINK_CAKTO_AQUI" onclick="fbq && fbq('track', 'InitiateCheckout')" style="display:block; text-decoration:none; text-align:center; margin-bottom:14px;">
+        QUERO TRANSFORMAR MEU CORPO AGORA
+        <small>🔒 Pagamento 100% seguro • Acesso imediato</small>
+      </a>
+      <div style="font-size:12px; color:#aaa; margin-top:10px;">✅ Garantia de 7 dias • Sem risco • Entrega imediata</div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>
+    © 2024 Protocolo Detox 21 Dias — Método Vida Leve. Todos os direitos reservados.<br>
+    Este produto é de natureza informativa e educacional. Consulte seu médico antes de iniciar qualquer protocolo alimentar.<br>
+    <a href="#">Política de Privacidade</a> · <a href="#">Termos de Uso</a> · <a href="mailto:suporte@seudominio.com.br">Suporte</a>
+  </p>
+</footer>
+
+<!-- STICKY CTA MOBILE -->
+<div class="sticky-cta">
+  <a href="SEU_LINK_CAKTO_AQUI" onclick="fbq && fbq('track', 'InitiateCheckout')">
+    🔥 Garantir meu Protocolo por R$27
+  </a>
+</div>
+
+<script>
+// ── Timer regressivo ──────────────────────────────────────────────────────────
+(function(){
+  const KEY = 'detox_timer_end';
+  let end = localStorage.getItem(KEY);
+  if (!end) {
+    end = Date.now() + 23 * 3600000 + 59 * 60000 + 47000;
+    localStorage.setItem(KEY, end);
+  }
+  function update() {
+    const diff = Math.max(0, end - Date.now());
+    const h = String(Math.floor(diff / 3600000)).padStart(2,'0');
+    const m = String(Math.floor((diff % 3600000) / 60000)).padStart(2,'0');
+    const s = String(Math.floor((diff % 60000) / 1000)).padStart(2,'0');
+    document.getElementById('timer').textContent = h + ':' + m + ':' + s;
+  }
+  update();
+  setInterval(update, 1000);
+})();
+
+// ── FAQ toggle ────────────────────────────────────────────────────────────────
+function toggleFaq(el) {
+  const item = el.parentElement;
+  item.classList.toggle('open');
+}
+
+// ── Fade-in on scroll ─────────────────────────────────────────────────────────
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); } });
+}, { threshold: 0.1 });
+document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+
+// ── Meta Pixel: ViewContent ──────────────────────────────────────────────────
+if (typeof fbq !== 'undefined') {
+  fbq('track', 'ViewContent', { content_name: 'Protocolo Detox 21 Dias', value: 27, currency: 'BRL' });
+}
+</script>
+</body>
+</html>
